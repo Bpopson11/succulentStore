@@ -1,3 +1,8 @@
 <h1>{{model.category}}</h1>
 
-{{item-tile item=item}}
+{{#each category.items as |item|}}
+{{log item}}
+  {{item-detail item=item category=model}}
+{{/each}}
+
+{{new-item saveItem="saveItem" category=model}}
