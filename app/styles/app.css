@@ -1,0 +1,45 @@
+/*application*/
+#title {
+  font-family: 'Kranky', cursive;
+  font-size: 30px;
+  color: #5c6d65;
+  font-weight: bolder;
+}
+.jumbotron {
+  background-image: url(/assets/images/greenhouse.jpg);
+  height: 400px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0px;
+}
+body {
+  font-family: 'Walter Turncoat', cursive;
+  background-color: #9b9587;
+}
+.catLinks {
+  margin-right: 10px;
+  background-color: #c9d3d5;
+  color: #5c6d65;
+}
+.navbar-default{
+  height: 33px;
+  background-color: #e4f0f0;
+}
+.cartIcon {
+  margin-left: 10px;
+  background-color: #c9d3d5;
+  color: #5c6d65;
+}
+
+/*item-tile*/
+.thumbnail {
+  float: left;
+  height: 300px;
+  width: 250px;
+  margin: 10px;
+}
+.thumbnail .pictures {
+  height: 200px;
+  width: 100%;
+}

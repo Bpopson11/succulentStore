@@ -1,0 +1,6 @@
+<h3>Your Shopping Cart</h3>
+<ul>
+  {{#each shoppingCart.items as |item|}}
+  <li>{{item.name}} -- {{item.size}}</li>
+{{/each}}
+</ul>
