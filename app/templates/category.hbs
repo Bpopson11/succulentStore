@@ -1,10 +1,10 @@
-<h1>{{model.category}}</h1>
+<p class="category-title">{{model.type}}</p>
 
-<ul>
 {{#each model.items as |item|}}
 {{log item}}
-  <li>{{item-detail item=item category=category}}</li>
+  {{item-detail item=item category=category}}
 {{/each}}
-</ul>
 
-{{new-item saveItem="saveItem" category=model}}
+
+<footer>{{new-item saveItem="saveItem" category=model}}
+</footer>

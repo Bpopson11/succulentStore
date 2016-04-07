@@ -1,6 +1,15 @@
-
-<ul>
-  <li>{{item.description}}</li>
-  <li>{{item.size}}</li>
-  <li>${{item.price}}</li>
-</ul>
+<div class="row">
+  <div class="col-sm-6">
+    <img class="itemDetailImg"  src="{{item.image}}" alt="{{item.name}}" />
+  </div>
+  <div class="col-sm-6">
+    <h2 class=itemDetailTitle>{{item.name}}</h2>
+    <ul>
+      <li class="itemDetailTxt">{{item.description}}</li>
+      <li class="itemDetailTxt">{{item.size}}</li>
+      <li class="itemDetailTxt">${{item.price}}</li>
+    </ul>
+    <button {{action 'addToCart' item}}>Add to Cart</button>
+  </div>
+</div>
+<hr>

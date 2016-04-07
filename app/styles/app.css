@@ -43,3 +43,22 @@ body {
   height: 200px;
   width: 100%;
 }
+
+/*category*/
+.category-title {
+  text-align: center;
+  font-size: 70px;
+}
+
+/*item-detail*/
+.itemDetailImg {
+  height: 350px;
+}
+.itemDetailTxt {
+  font-size: 20px;
+  color:
+}
+.itemDetailTitle {
+  font-family: 'Kranky', cursive;
+  color: #346B1A
+}

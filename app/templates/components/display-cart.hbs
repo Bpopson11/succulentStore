@@ -1,6 +1,10 @@
 <h3>Your Shopping Cart</h3>
 <ul>
   {{#each shoppingCart.items as |item|}}
-  <li>{{item.name}} -- {{item.size}}</li>
+  <li>{{item.name}} -- ${{item.price}}</li>
+    <ul>
+      <li>Size: {{item.size}}</li>
+    </ul>
 {{/each}}
 </ul>
+Your total: ${{cartTotal}}
